@@ -14,7 +14,7 @@ let topScore = 0;
 let gameScore = 20;
 checkButton.addEventListener("click", function () {
   const guess = Number(document.querySelector(".guess").value);
-  console.log(randomNumber);
+
   if (!guess) {
     message.textContent = "❌❌ Enter a value to play";
   } else if (guess === randomNumber) {
